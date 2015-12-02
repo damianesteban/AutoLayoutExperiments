@@ -33,6 +33,10 @@ class ViewController: UIViewController {
         performSegueWithIdentifier("showNeonViewController", sender: self)
     }
     
+    func snapkitButtonPressed() {
+        performSegueWithIdentifier("showSnapkitViewController", sender: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor(red: 0.9, green: 0.9, blue: 1, alpha: 1)
@@ -80,8 +84,8 @@ class ViewController: UIViewController {
         
         button2.translatesAutoresizingMaskIntoConstraints = false
         button2.setTitle("SnapKit", forState: UIControlState.Normal)
-        //button2.addTarget(self, action: "snapkitSegueButtonPressed",
-        //    forControlEvents: UIControlEvents.TouchUpInside)
+        button2.addTarget(self, action: "snapkitButtonPressed",
+            forControlEvents: UIControlEvents.TouchUpInside)
         button2.backgroundColor = UIColor(rgba: MaterialColors.Amber.P500.HUE)
         button2.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
         

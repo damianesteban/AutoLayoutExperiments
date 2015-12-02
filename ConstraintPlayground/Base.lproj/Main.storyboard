@@ -21,6 +21,7 @@
                     </view>
                     <connections>
                         <segue destination="A5r-8y-hAm" kind="presentation" identifier="showNeonViewController" id="WRc-G8-hHi"/>
+                        <segue destination="N45-DF-ex5" kind="presentation" identifier="showSnapkitViewController" id="hCb-jO-Nsl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -45,6 +46,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QIw-Nr-ibE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="961" y="427"/>
+        </scene>
+        <!--Snap Kit View Controller-->
+        <scene sceneID="BMZ-Nx-etZ">
+            <objects>
+                <viewController id="N45-DF-ex5" customClass="SnapKitViewController" customModule="ConstraintPlayground" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="azt-hQ-jip"/>
+                        <viewControllerLayoutGuide type="bottom" id="0Sh-h4-gMu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8rc-Gk-rux">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hWr-CE-tKr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="234" y="1136"/>
         </scene>
     </scenes>
 </document>

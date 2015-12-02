@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9DCEE4C5F17B49DD32CBE45F /* Pods_ConstraintPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7AC17D8D735528C496A7EC /* Pods_ConstraintPlayground.framework */; };
+		FB03B0891C0EB802001820F8 /* MaterialDesignColorSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB03B0881C0EB802001820F8 /* MaterialDesignColorSwift.swift */; };
+		FB03B08B1C0EB9EE001820F8 /* SnapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB03B08A1C0EB9EE001820F8 /* SnapKitViewController.swift */; };
 		FB2C14121BF677740088ECE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C14111BF677740088ECE9 /* AppDelegate.swift */; };
 		FB2C14141BF677740088ECE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C14131BF677740088ECE9 /* ViewController.swift */; };
 		FB2C14171BF677740088ECE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2C14151BF677740088ECE9 /* Main.storyboard */; };
@@ -15,7 +17,6 @@
 		FB2C141C1BF677740088ECE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2C141A1BF677740088ECE9 /* LaunchScreen.storyboard */; };
 		FB2C14271BF677740088ECE9 /* ConstraintPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C14261BF677740088ECE9 /* ConstraintPlaygroundTests.swift */; };
 		FB2C14321BF677740088ECE9 /* ConstraintPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C14311BF677740088ECE9 /* ConstraintPlaygroundUITests.swift */; };
-		FBFA249E1BF6795A00D8D6A3 /* MaterialDesignColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFA249D1BF6795A00D8D6A3 /* MaterialDesignColors.swift */; };
 		FBFA24A01BF679B300D8D6A3 /* NeonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFA249F1BF679B300D8D6A3 /* NeonViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,8 @@
 		43FDAA460B8E3BBD736AD6B9 /* Pods-ConstraintPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConstraintPlayground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConstraintPlayground/Pods-ConstraintPlayground.debug.xcconfig"; sourceTree = "<group>"; };
 		5E7AC17D8D735528C496A7EC /* Pods_ConstraintPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConstraintPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F058E2D297789277D1F048F /* Pods-ConstraintPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConstraintPlayground.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConstraintPlayground/Pods-ConstraintPlayground.release.xcconfig"; sourceTree = "<group>"; };
+		FB03B0881C0EB802001820F8 /* MaterialDesignColorSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialDesignColorSwift.swift; sourceTree = "<group>"; };
+		FB03B08A1C0EB9EE001820F8 /* SnapKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapKitViewController.swift; sourceTree = "<group>"; };
 		FB2C140E1BF677740088ECE9 /* ConstraintPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConstraintPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB2C14111BF677740088ECE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB2C14131BF677740088ECE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,7 +56,6 @@
 		FB2C142D1BF677740088ECE9 /* ConstraintPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConstraintPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB2C14311BF677740088ECE9 /* ConstraintPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintPlaygroundUITests.swift; sourceTree = "<group>"; };
 		FB2C14331BF677740088ECE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FBFA249D1BF6795A00D8D6A3 /* MaterialDesignColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MaterialDesignColors.swift; path = ../../NeonPlayground/NeonPlayground/MaterialDesignColors.swift; sourceTree = "<group>"; };
 		FBFA249F1BF679B300D8D6A3 /* NeonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,7 +127,7 @@
 		FB2C14101BF677740088ECE9 /* ConstraintPlayground */ = {
 			isa = PBXGroup;
 			children = (
-				FBFA249D1BF6795A00D8D6A3 /* MaterialDesignColors.swift */,
+				FB03B0881C0EB802001820F8 /* MaterialDesignColorSwift.swift */,
 				FB2C14111BF677740088ECE9 /* AppDelegate.swift */,
 				FB2C14131BF677740088ECE9 /* ViewController.swift */,
 				FB2C14151BF677740088ECE9 /* Main.storyboard */,
@@ -133,6 +135,7 @@
 				FB2C141A1BF677740088ECE9 /* LaunchScreen.storyboard */,
 				FB2C141D1BF677740088ECE9 /* Info.plist */,
 				FBFA249F1BF679B300D8D6A3 /* NeonViewController.swift */,
+				FB03B08A1C0EB9EE001820F8 /* SnapKitViewController.swift */,
 			);
 			path = ConstraintPlayground;
 			sourceTree = "<group>";
@@ -339,8 +342,9 @@
 			files = (
 				FB2C14141BF677740088ECE9 /* ViewController.swift in Sources */,
 				FB2C14121BF677740088ECE9 /* AppDelegate.swift in Sources */,
+				FB03B08B1C0EB9EE001820F8 /* SnapKitViewController.swift in Sources */,
+				FB03B0891C0EB802001820F8 /* MaterialDesignColorSwift.swift in Sources */,
 				FBFA24A01BF679B300D8D6A3 /* NeonViewController.swift in Sources */,
-				FBFA249E1BF6795A00D8D6A3 /* MaterialDesignColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
